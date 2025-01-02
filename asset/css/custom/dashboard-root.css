@@ -1,0 +1,265 @@
+
+@font-face {
+  font-family: 'Kalam';
+  src: url('/asset/fonts/kalam/Kalam_Light_300.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Kalam';
+  src: url('/asset/fonts/kalam/Kalam_400.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Kalam';
+  src: url('/asset/fonts/kalam/Kalam_Bold_700.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+  
+
+
+
+
+@font-face {
+  font-family: 'Josefin';
+  src: url('/asset/fonts/josefin/Josefin_Sans_Bold_700.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Josefin';
+  src: url('/asset/fonts/josefin/Josefin_Sans_SemiBold_600.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Josefin';
+  src: url('/asset/fonts/josefin/Josefin_Sans_Regular_400.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Josefin';
+  src: url('/asset/fonts/josefin/Josefin_Sans_Light_300.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'Josefin';
+  src: url('/asset/fonts/josefin/Josefin_Sans_Thin_250.ttf') format('truetype');
+  font-weight: 250;
+  font-style: normal;
+}
+
+
+
+  
+  
+  body ,html{
+    font-family: 'Kalam', sans-serif !important;
+    background: #fcfcfc;
+    overflow-x: hidden;
+    padding: 0px !important;
+  }
+  
+  * {
+    padding: 0;
+    margin: 0;
+  }
+  
+  /*...........all color root..........*/
+  :root {
+  
+    --enroll:#8FB9AB;
+    --commonRadius:5px;
+    --boxShadow:rgba(50, 50, 105, 0.15) 0px 2px 5px 0px, rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;;
+    --course1: #F2D096;
+   --course2:#ADCED8;
+   --course3:rgba(240,137,118,63%);
+   --buttononRadius:10px;
+   --commonFont:16px;
+   --commonborder:1px solid #e7e7e7;
+   --notiText:#878787;
+   --dropdownShadow: 0px 3px 13px -4px rgb(228, 228, 228);
+   --dropdownHover:#f6f6f6;
+   --buttonColor:#8FB9AB;
+   --headerfont:72px;
+   --titleSpan:#B2E8E8;
+  
+   --ratingStar:#FFC700;
+   --ratingColor:#ccc;
+    --bodyColor: #FAFAFA;
+    --whiteColor: #fff;
+    --notiText: #878787;
+    --blackColor: #000;
+    --tooHeaderIconColor: #8d8d8d;
+    --opacityColor: #656565;
+    --navBackground: #f5f5f5;
+    --navColor: #ADCED8;
+    --commonColor:  #314D63;;
+    --scrollBarColor: #f1f1f1;
+    --scrollBarThumb: #d8d8d8;
+    --brandColor: #546cb0;
+    --iconColor: #0e172680;
+    --navarActiver: #00000014;
+    --navbarMenuHover: #ecf0ff;
+    --listMenuColor: #0E1726;
+    --infoCardDetails: #403737;
+    --cardShadow: 0 1px 3px 0 #0000001a, 0 1px 2px -1px #0000001a;
+    --commonBoxShadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.1);
+    --inputBoxShadow: 0px 0px 22px -15px rgba(56, 99, 217, 1);
+    --sidebarBoxshadow: 0px 0px 30px -7px rgba(105, 105, 105, 0.3);
+    --navbarBoxShadow: 0 1px 2px 0 #0000000d;
+    --infotime:#F08976;
+    --subMenuBg: #f3f4f6;
+    --subMneuLia: #6B7280;
+  
+    --infoCard_1: #ff579a;
+    --infoCard_1_afterBackground: rgba(255, 87, 154, 0.06);
+    --infoCard_1_up_Background: rgba(255, 87, 154, 0.09);
+    --infoCard_1_up_Color: rgba(255, 87, 154, 0.5);
+  
+    --infoCard_2: #5c60f5;
+    --infoCard_2_afterBackground: rgba(92, 96, 245, 0.06);
+    --infoCard_2_up_Background: rgba(92, 96, 245, 0.09);
+    --infoCard_2_up_Color: rgba(92, 96, 245, 0.5);
+  
+    --infoCard_3: #00d4ff;
+    --infoCard_3_afterBackground: rgba(0, 212, 255, 0.06);
+    --infoCard_3_up_Background: rgba(0, 212, 255, 0.09);
+    --infoCard_3_up_Color: rgba(0, 212, 255, 0.5);
+  
+    --infoCard_4: #ff8c00;
+    --infoCard_4_afterBackground: rgba(255, 140, 0, 0.06);
+    --infoCard_4_up_Background: rgba(255, 140, 0, 0.09);
+    --infoCard_4_up_Color: rgba(0, 212, 255, 0.5);
+  
+    --coommonFontSize: 14px;
+    --coommonFontSize13: 13px;
+    --sideIconFontSize: 15px;
+  
+    --allOverPageWidth: 255px;
+    --allOverPageWidthToogle: -255px;
+  
+    /* must be its added result will be allOverPageWidth */
+    --pageWapperToogleLeft: -185px;
+    --sideBarToogleWidth: 70px;
+  
+    --navbarPageContetSamePaddingMargin: 70px;
+    --navbarPageContetSamePaddingMarginMobile:55px;
+    --questionFont:16px;
+    --questionFontS:14px;
+    --questionFontT:18px;
+  }
+  a{
+    text-decoration: none;
+  }
+  h1,h2,h3,h4,h5,h6,p{
+    padding: 0;
+    margin: 0;
+  }
+  .btn,.btn:active{
+    box-shadow: none ;
+    outline: none ;
+    background: none;
+  }
+  /*...........sidebar menu page content sliding..........*/
+  .no-margin {
+    margin: 0;
+  }
+  
+  #wrapper {
+    
+    padding-left: var(--allOverPageWidth);
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+  }
+  
+  #wrapper.toggled {
+    padding-left: 20px;
+    overflow: hidden;
+  }
+  
+  #wrapper.toggled #sidebar-wrapper {
+    width: var(--allOverPageWidth);
+  }
+  
+  #wrapper.toggled #sidebar-wrapper {
+    width: var(--allOverPageWidth);
+  }
+  
+  #wrapper.toggled-2 #sidebar-wrapper {
+    width: var(--sideBarToogleWidth);
+    overflow: visible;
+  }
+  
+  /*...........page content..........*/
+  .xyz {
+    min-width: 360px;
+  }
+  
+  .page-content-wrapper {
+    padding: 20px;
+    margin-top: var(--navbarPageContetSamePaddingMargin);
+    position: relative;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+  }
+  
+  #wrapper.toggled .page-content-wrapper {
+    position: relative;
+    margin-right: 0;
+    padding-left: var(--allOverPageWidth);
+  }
+  
+  #wrapper.toggled-2 .page-content-wrapper {
+    position: relative;
+    margin-right: 0;
+    margin-left: var(--pageWapperToogleLeft);
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    width: auto;
+  }
+  
+  #wrapper.toggled .page-content-wrapper {
+    position: relative;
+    margin-right: 0px;
+  }
+  @media screen and (max-width: 992px) {
+    :root {
+    --questionFont:15px;
+    --questionFontS:13px;
+    --questionFontT:17px;
+   }
+  } 
+  @media screen and (max-width: 767px) {
+    #wrapper {
+      padding-left: 0px;
+    }
+  
+    #wrapper.toggled-2 .page-content-wrapper {
+      margin-left: 0px;
+    }
+  }
+
+  @media screen and (max-width: 412px) {
+    .page-content-wrapper {
+      padding: 0px;
+    }
+  
+    .xyz {
+      min-width: 0px;
+    }
+  }

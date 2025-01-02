@@ -1,0 +1,81 @@
+
+@font-face {
+    font-family: 'Kalam';
+    src: url('/asset/fonts/kalam/Kalam_Light_300.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Kalam';
+    src: url('/asset/fonts/kalam/Kalam_400.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Kalam';
+    src: url('/asset/fonts/kalam/Kalam_Bold_700.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+
+
+body ,html{
+    font-family: 'Kalam', sans-serif !important;
+    background: var(--whiteColor);
+    overflow-x: hidden;
+    padding: 0px !important;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+:root {
+    --whiteColor: #ffffff;
+    --navColor: #314D63;
+    --enroll:#8FB9AB;
+    --commonRadius:5px;
+    --boxShadow:rgba(50, 50, 105, 0.15) 0px 2px 5px 0px, rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;;
+    --course1: #F2D096;
+   --course2:#ADCED8;
+   --course3:rgba(240,137,118,63%);
+   --buttononRadius:10px;
+   --commonFont:16px;
+   --commonborder:1px solid #e7e7e7;
+   --notiText:#878787;
+   --dropdownShadow: 0px 3px 13px -4px rgb(228, 228, 228);
+   --dropdownHover:#f6f6f6;
+   --buttonColor:#8FB9AB;
+   --headerfont:72px;
+   --titleSpan:#B2E8E8;
+
+   --ratingStar:#FFC700;
+   --ratingColor:#ccc;
+}
+a{
+    text-decoration: none;
+}
+h1,h2,h3,h4,h5,h6,p{
+    padding: 0;
+    margin: 0;
+}
+.btn,.btn:active{
+    box-shadow: none ;
+    outline: none ;
+    background: none;
+}
+
+
+@media only screen and (max-width: 1340px) {
+:root{
+    --commonFont:14px;
+}
+}
+@media only screen and (max-width:767px) {
+    :root{
+        --headerfont:52px;
+    }
+    }
